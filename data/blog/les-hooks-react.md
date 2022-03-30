@@ -1,7 +1,7 @@
 ---
 title: Les Hooks React
 date: '2020-06-01'
-description: 'Revu des différents hooks react et leurs effets (démo)'
+summary: 'Revu des différents hooks react et leurs effets (démo)'
 tags: ['react']
 draft: false
 ---

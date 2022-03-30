@@ -1,7 +1,7 @@
 ---
 title: Migrer son blog de Wordpress à Gatsby - Part 1
 date: '2019-09-04'
-description: 'Les avantages de Gatsby par rapport à Wordpress'
+summary: 'Les avantages de Gatsby par rapport à Wordpress'
 tags: ['wordpress']
 draft: false
 ---

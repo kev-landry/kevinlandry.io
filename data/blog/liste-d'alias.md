@@ -1,6 +1,6 @@
 ---
 title: "Liste d'alias"
-description: "Liste des différents alias que j'utilise régulièrement."
+summary: "Liste des différents alias que j'utilise régulièrement."
 date: '2018-07-08'
 tags: ['utils']
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: 'Créé une API avec NodeJS et Express'
-description: "Création d'une API simple avec nodejs et express."
+summary: "Création d'une API simple avec nodejs et express."
 date: '2017-04-30'
 tags: ['nextjs']
 draft: false

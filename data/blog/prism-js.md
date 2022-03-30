@@ -1,6 +1,6 @@
 ---
 title: 'Mettre en évidence son code avec Prism.js'
-description: 'Faire briller ses snipets'
+summary: 'Faire briller ses snipets'
 date: '2018-05-24'
 tags: ['prismjs', 'highlight']
 draft: false

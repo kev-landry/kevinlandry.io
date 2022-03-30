@@ -13,6 +13,7 @@ const MobileNav = () => {
         // Prevent scrolling
         document.body.style.overflow = 'hidden'
       }
+
       return !status
     })
   }
@@ -58,7 +59,7 @@ const MobileNav = () => {
           onClick={onToggleNav}
         ></button>
         <nav className="fixed mt-8 h-full">
-          {headerNavLinks.map((link) => (
+          {/* {headerNavLinks.map((link) => (
             <div key={link.title} className="px-12 py-4">
               <Link
                 href={link.href}
@@ -68,7 +69,14 @@ const MobileNav = () => {
                 {link.title}
               </Link>
             </div>
-          ))}
+          ))} */}
+          <Link
+            href="/blog"
+            className="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
+            onClick={onToggleNav}
+          >
+            Blog
+          </Link>
         </nav>
       </div>
     </div>

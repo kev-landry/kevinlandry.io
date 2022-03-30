@@ -1,7 +1,7 @@
 ---
 title: Migrer son blog de Wordpress à Gatsby - Part 2
 date: '2019-09-06'
-description: 'Mettre en place gatsby et netlify'
+summary: 'Mettre en place gatsby et netlify'
 tags: ['wordpress', 'netlify']
 draft: false
 ---

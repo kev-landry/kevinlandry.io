@@ -1,12 +1,12 @@
 ---
 name: Kevin Landry
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
+occupation: Frontend Developper
+company: Loyalty
 email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+twitter: https://twitter.com/Siscka42
+linkedin: https://www.linkedin.com/in/kevin--landry/
+github: https://github.com/kev-landry
 ---
 
 Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.

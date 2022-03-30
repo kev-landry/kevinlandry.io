@@ -27,6 +27,7 @@ const CommonSEO = ({
   canonicalUrl,
 }: CommonSEOProps) => {
   const router = useRouter()
+
   return (
     <Head>
       <title>{title}</title>
@@ -63,6 +64,7 @@ interface PageSEOProps {
 export const PageSEO = ({ title, description }: PageSEOProps) => {
   const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
   const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
+
   return (
     <CommonSEO
       title={title}
@@ -78,6 +80,7 @@ export const TagSEO = ({ title, description }: PageSEOProps) => {
   const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
   const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
   const router = useRouter()
+
   return (
     <>
       <CommonSEO
