@@ -7,7 +7,7 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { ReactNode } from 'react'
-import Image from '@/components/Image'
+// import Image from '@/components/Image'
 
 interface Props {
   children: ReactNode
@@ -21,14 +21,6 @@ const LayoutWrapper = ({ children }: Props) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="mr-3">
-                  <Image
-                    src="/public/static/image/avatar.png"
-                    width={150}
-                    height={150}
-                    alt="site logo"
-                  />
-                </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
                     {siteMetadata.headerTitle}
@@ -56,8 +48,8 @@ const LayoutWrapper = ({ children }: Props) => {
             <MobileNav />
           </div>
         </header>
-        <Footer />
         <main className="mb-auto">{children}</main>
+        <Footer />
       </div>
     </SectionContainer>
   )
