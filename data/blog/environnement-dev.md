@@ -12,7 +12,7 @@ draft: false
 
 J'utilise l'émulateur console [Cmder](http://cmder.net/) en tant que terminal.
 
-![Terminal cmder](./cmder.png)
+![Terminal cmder](/static/images/articles/cmder.png)
 
 Il réunit plusieurs fonctionnalités sympa et en plus est portable, on peut donc l'utiliser sur plusieurs machines sans problèmes afin de retrouver ses propres settings.
 
@@ -27,29 +27,29 @@ En plus de cela il est possible de le customiser de façon assez avancé pour en
 
 Sur ce dernier point concernant le CLI il y en a plusieurs à disposition, vous pouvez y accéder via `Settings -> Startup -> Tasks` :
 
-![Options de configuration de cmder](./ConEmu64_2018-07-07_16-22-23.png)
+![Options de configuration de cmder](/static/images/articles/ConEmu64_2018-07-07_16-22-23.png)
 
 On y retrouve forcément cmder, mais aussi le shell de base de windows (à éviter), powershell, il est même possible de faire en sorte d'utiliser le bash de linux.
 
 En effet vous pouvez activer le mode développeur puis cochez **Sous-système Windows pour Linux** afin d'avoir accès à un des environnements linux disponible.
 
-![activer WSL2 sur windows 10](./explorer.png)
+![activer WSL2 sur windows 10](/static/images/articles/explorer.png)
 
 Une fois coché redémarrez le pc pour terminer l'installation.
 
 Ensuite cliquez sur **Add/refresh default tasks** toujours dans l'onglet Tasks :
 
-![utiliser bash avec cmder](./cmder_add_bash.png)
+![utiliser bash avec cmder](/static/images/articles/cmder_add_bash.png)
 
 Cmder va se charger lui-même de trouver le bash.exe et d'en définir le chemin.
 
 Il ne reste plus qu'à sélectionner Bash dans l'onglet **Startup :**
 
-![Options de lancement de cmder](./cmder_bash_settings.png)
+![Options de lancement de cmder](/static/images/articles/cmder_bash_settings.png)
 
 Et voilà ! Vous pouvez dès à présent profiter de cet environnement sans avoir à passer par une machine virtuelle ou un boot. A noter qu'il existe pour le moment 5 distributions linux disponibles.
 
-![cli cmder avec bash wsl](./cmder_bash_wsl.png)
+![cli cmder avec bash wsl](/static/images/articles/cmder_bash_wsl.png)
 
 Cela termine la partie Cmder !
 

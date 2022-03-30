@@ -129,7 +129,7 @@ Il est possible de créer rapidement un template pour votre doc api avec [apidoc
 
 En exemple :
 
-![documentation api généré par apidoc](./scroll_doc25.gif)
+![documentation api généré par apidoc](/static/images/articles/scroll_doc25.gif)
 
 ### Conclusion
 

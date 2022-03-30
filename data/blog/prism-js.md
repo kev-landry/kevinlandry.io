@@ -38,7 +38,7 @@ Personnellement j'utilise Prismjs avec son thème _okaidia._
 
 Dans la partie [downloads](http://prismjs.com/download.html) vous pouvez customiser votre package avec au choix, langages, thèmes, plugins :
 
-![Page de téléchargement de prism.js](./Prism_Download_Page.png)
+![Page de téléchargement de prism.js](/static/images/articles/Prism_Download_Page.png)
 
 Une fois les deux fichiers prism.css et prism.js téléchargés, placez les dans le dossier de votre thème,  le chemin peut changer suivant votre config, pour ma part il se trouve dans: \_`<wordpress>/wp-content/themes/<mon-thème>/assets`\_et suivant leur extension soit dans le dossier js ou css.
 

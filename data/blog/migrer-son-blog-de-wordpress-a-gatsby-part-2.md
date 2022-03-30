@@ -17,7 +17,7 @@ Comme dit dans [la partie 1](/migrer-son-blog-de-wordpress-a-gatsby-part-1/) de 
 ### Migrer depuis wordpress
 
 Pour cela il va nous falloir dans un premier temps exporter tous nos articles wordpress via son backoffice.
-![interface wordpress d'exportation](./exporter_wordpress.png)
+![interface wordpress d'exportation](/static/images/articles/exporter_wordpress.png)
 Ensuite j'ai utilisé [wordpress-export-to-markdown](https://github.com/lonekorean/wordpress-export-to-markdown) qui permet de convertir notre fichier .xml en fichier markdown .md.
 
 ```bash
@@ -53,17 +53,17 @@ cd mon-super-blog
 gatsby develop
 ```
 
-![gatsby compiled](./gatsby_develop_success.png)
+![gatsby compiled](/static/images/articles/gatsby_develop_success.png)
 Vous n'avez plus qu'à vous rendre sur [http://localhost:8000/](http://localhost:8000/) pour voir le résultat.
 Dans le screenshot au dessus on peut déjà voir qu'il y a "7 pages", notre template possède déjà quelques articles par défaut afin de vous donner une idée.
 
 Maintenant que l'installation est complète copiez vos dossiers d'articles convertis précédemment en markdown vers `content/blog`. C'est là que vous pouvez stocker vos articles .md.
 
-![Chemin des articles](./gatsby_articles_path.png)
+![Chemin des articles](/static/images/articles/gatsby_articles_path.png)
 Par exemple en suivant cette structure au dessus il est possible de voir l'article hello-world en allant sur [http://localhost:8000/hello-world](http://localhost:8000/hello-world). Bien sûr vous êtes libre de suivre cette architecture ou de la changer dans `gatsby-config.js`.
 
 Vous pouvez déjà commencer à personnaliser votre nouveau projet en allant éditer `gatsby-config.js`. Dans ce fichier vous y trouverez les **métadonnées** de votre site ainsi que la liste des différents plugins gatsby.
-![gatsby metadata](./metadata_gatsby.png)
+![gatsby metadata](/static/images/articles/metadata_gatsby.png)
 Dans `/content/assets/profile-pic.jpg` vous trouverez l'avatar de base utilisé en page d’accueil que vous êtes libre de changer.
 
 Vous avez maintenant votre blog qui fonctionne en local il ne reste plus qu'à lui trouver un host !
@@ -91,9 +91,9 @@ git push -u origin master
 ```
 
 Créez un compte netlify puis allez dans votre interface par défaut et cliquez sur "new site from Git":
-![Host with netlify via git](./netlify_new_site_git.png)
+![Host with netlify via git](/static/images/articles/netlify_new_site_git.png)
 Vous devrez autoriser netlify à accéder à votre github/lab et lui indiquer quel répertoire il peut utiliser. Dernière étape, spécifiez la commande à exécuter afin de build votre site gatsby et l'emplacement de son dossier une fois le build terminé.
-![build config netlify gatsby](./netlify_deploy_site.png)
+![build config netlify gatsby](/static/images/articles/netlify_deploy_site.png)
 Plus qu'à cliquer sur **deploy site** pour que votre blog soit à porté de click de millions de gens !
 À noter que par défaut votre site sera rebuild à chaque push sur votre origin master, libre à vous de configurer tout ça différemment.
 
