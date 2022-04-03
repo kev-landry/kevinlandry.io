@@ -77,6 +77,7 @@ app.prepare().then(() => {
           } catch (e) {
             console.error('Remote script failed')
             console.error(e)
+
             return e
           }
         }

@@ -41,6 +41,7 @@ const Comments = ({ frontMatter }: Props) => {
       term = frontMatter.title
       break
   }
+
   return (
     <div id="comment">
       {siteMetadata.comment && siteMetadata.comment.provider === 'giscus' && (

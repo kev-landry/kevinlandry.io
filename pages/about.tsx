@@ -11,6 +11,7 @@ export const getStaticProps: GetStaticProps<{
 }> = async () => {
   const authorDetails = await getFileBySlug<AuthorFrontMatter>('authors', ['default'])
   const { mdxSource, frontMatter } = authorDetails
+
   return { props: { authorDetails: { mdxSource, frontMatter } } }
 }
 

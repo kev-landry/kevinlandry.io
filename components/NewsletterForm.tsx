@@ -25,6 +25,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
     if (error) {
       setError(true)
       setMessage('Your e-mail address is invalid or you are already subscribed!')
+
       return
     }
 

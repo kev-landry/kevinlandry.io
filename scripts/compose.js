@@ -8,6 +8,7 @@ const root = process.cwd()
 const getAuthors = () => {
   const authorPath = path.join(root, 'data', 'authors')
   const authorList = fs.readdirSync(authorPath).map((filename) => path.parse(filename).name)
+
   return authorList
 }
 
@@ -17,6 +18,7 @@ const getLayouts = () => {
     .readdirSync(layoutPath)
     .map((filename) => path.parse(filename).name)
     .filter((file) => file.toLowerCase().includes('post'))
+
   return layoutList
 }
 

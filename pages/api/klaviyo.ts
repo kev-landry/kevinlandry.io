@@ -30,6 +30,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         error: `There was an error subscribing to the list.`,
       })
     }
+
     return res.status(201).json({ error: '' })
   } catch (error) {
     return res.status(500).json({ error: error.message || error.toString() })

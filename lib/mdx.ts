@@ -28,6 +28,7 @@ const root = process.cwd()
 export function getFiles(type: 'blog' | 'authors') {
   const prefixPaths = path.join(root, 'data', type)
   const files = getAllFilesRecursively(prefixPaths)
+
   // Only want to return blog/path and ignore root, replace is needed to work on Windows
   return files.map((file) => file.slice(prefixPaths.length + 1).replace(/\\/g, '/'))
 }
@@ -39,6 +40,7 @@ export function formatSlug(slug: string) {
 export function dateSortDesc(a: string, b: string) {
   if (a > b) return -1
   if (a < b) return 1
+
   return 0
 }
 
@@ -85,6 +87,7 @@ export async function getFileBySlug<T>(type: 'authors' | 'blog', slug: string | 
         [rehypePrismPlus, { ignoreMissing: true }],
         rehypePresetMinify,
       ]
+
       return options
     },
     esbuildOptions: (options) => {
@@ -92,6 +95,7 @@ export async function getFileBySlug<T>(type: 'authors' | 'blog', slug: string | 
         ...options.loader,
         '.js': 'jsx',
       }
+
       return options
     },
   })
