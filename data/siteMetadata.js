@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Kevin Landry',
   headerTitle: 'kevinlandry.io',
   description:
-    "J'écris plein de choses qui parle de code. Ce blog sert surtout de support de veille. Vous trouverez ici des démos, des exemples, des chemins de reflexion...",
+    "J'écris plein de choses qui parle de code mais pas que. Ce blog sert surtout de support de veille. Vous trouverez ici des démos, des exemples, des chemins de reflexion...",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
