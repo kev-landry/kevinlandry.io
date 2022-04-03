@@ -6,8 +6,8 @@ const siteMetadata = {
     "J'écris plein de choses qui parle de code mais pas que. Ce blog sert surtout de support de veille. Vous trouverez ici des démos, des exemples, des chemins de reflexion...",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://kevinlandry-io.vercel.app',
+  siteRepo: 'https://github.com/kev-landry/kevinlandry.io',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
@@ -15,7 +15,7 @@ const siteMetadata = {
   github: 'https://github.com/kev-landry',
   twitter: 'https://twitter.com/Siscka42',
   linkedin: 'https://www.linkedin.com/in/kevin--landry/',
-  locale: 'en-US',
+  locale: 'fr-FR',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
