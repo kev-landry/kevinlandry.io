@@ -10,7 +10,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/kev-landry/kevinlandry.io',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/logo.png',
   email: 'address@yoursite.com',
   github: 'https://github.com/kev-landry',
   twitter: 'https://twitter.com/Siscka42',
