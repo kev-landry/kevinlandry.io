@@ -66,6 +66,8 @@ module.exports = {
             },
             pre: {
               backgroundColor: theme('colors.gray.800'),
+              paddingLeft: '0.6rem',
+              paddingRight: '0.6rem',
             },
             code: {
               color: theme('colors.pink.500'),

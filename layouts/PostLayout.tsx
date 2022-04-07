@@ -29,7 +29,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
   const { slug, date, title, tags } = frontMatter
 
   return (
-    <SectionContainer>
+    <div className="mx-auto max-w-3xl px-2 sm:px-6 xl:max-w-5xl xl:px-0">
       <BlogSEO
         url={`${siteMetadata.siteUrl}/blog/${slug}`}
         authorDetails={authorDetails}
@@ -148,6 +148,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
           </div>
         </div>
       </article>
-    </SectionContainer>
+    </div>
   )
 }

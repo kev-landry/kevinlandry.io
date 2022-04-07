@@ -1,6 +1,6 @@
 /**
  * CSS Styles for code highlighting.
- * Feel free to customize token styles 
+ * Feel free to customize token styles
  * by copying from a prismjs compatible theme:
  * https://github.com/PrismJS/prism-themes
  */
@@ -12,6 +12,9 @@
 
 .remark-code-title + div > pre {
   @apply mt-0 rounded-t-none;
+}
+.relative > pre {
+  @apply rounded-t-none;
 }
 
 /* Code block styles */
