@@ -32,9 +32,16 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
+        overreacted: {
+          darkBg: '#282c35',
+          textNormal: 'hsla(0,0%,100%,0.88)',
+        },
+        primary: colors.pink,
         //@ts-ignore
         gray: colors.neutral, // TODO: Remove ts-ignore after tw types gets updated to v3
+        pink: {
+          450: '#ffa7c4',
+        },
       },
       typography: (theme) => ({
         DEFAULT: {
